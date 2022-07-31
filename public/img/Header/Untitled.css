@@ -1,0 +1,17 @@
+.Frame_1 {
+	transform-box: fill-box;
+	transform-origin: 50% 50%
+}
+.react {
+	animation: 2s linear 0s 1 normal forwards running react;
+	transform-box: fill-box;
+	transform-origin: 50% 50%
+}
+@keyframes react {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-60deg);
+	}
+}
