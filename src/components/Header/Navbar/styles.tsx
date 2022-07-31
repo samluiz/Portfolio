@@ -7,14 +7,7 @@ export const Container = styled.nav`
     ul {
         display: grid;
         grid-auto-flow: column;
-        width: fit-content;
-        gap: 1px;
-        background-color: #cc00ff;
-    }
-
-    li {
-        background-color: black;
-        padding: 0 1rem 0 1rem;
+        gap: 2rem;
     }
 
     a {

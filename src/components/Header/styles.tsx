@@ -5,4 +5,7 @@ export const Container = styled.header`
     justify-content: space-around;
     height: 3.75rem;
     background-color: black;
+    z-index: 100;
+    width: 100%;
+    position: fixed;
 `

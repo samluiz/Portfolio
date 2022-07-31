@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.main`
-    min-height: calc(100vh - 3.75rem);
+    min-height: 100vh;
     background-color: black;
     display: flex;
     align-items: center;
