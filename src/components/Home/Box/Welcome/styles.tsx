@@ -7,6 +7,6 @@ export const Container = styled.div`
     font-size: 1.75rem;
 
     @media (max-width: 290px) {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 `

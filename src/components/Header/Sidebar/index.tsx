@@ -1,23 +1,24 @@
 import React from 'react'
 import { Container } from './styles'
 import { slide as Menu } from 'react-burger-menu'
+import { navData } from '../../../text/texts'
 
 const Sidebar: React.FC = () => {
     return (
         <>
             <Container>
                 <Menu>
-                    <a id="home" className="menu-item" href="/">
-                        HOME
+                    <a id="home" className="menu-item" href="#">
+                        {navData.home}
                     </a>
-                    <a id="about" className="menu-item" href="/">
-                        ABOUT
+                    <a id="about" className="menu-item" href="#firstAbout">
+                        {navData.about}
                     </a>
                     <a id="projects" className="menu-item" href="/">
-                        PROJECTS
+                        {navData.projects}
                     </a>
                     <a id="contact" className="menu-item" href="/">
-                        CONTACT
+                        {navData.contact}
                     </a>
                 </Menu>
             </Container>

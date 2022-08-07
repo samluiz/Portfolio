@@ -9,7 +9,12 @@ export const GlobalStyles = createGlobalStyle`
     font-family: Sen, 'sans-serif';
     font-smooth: antialised;
     -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
   * {

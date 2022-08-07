@@ -1,11 +1,14 @@
 import React from 'react'
 import { Container } from './styles'
+import { homeData } from '../../../../text/texts'
 
 const Button: React.FC = () => {
     return (
         <>
             <Container>
-                <button>Dive deep</button>
+                <button>
+                    <a href="#firstAbout">{homeData.button}</a>
+                </button>
             </Container>
         </>
     )

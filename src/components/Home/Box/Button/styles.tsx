@@ -23,10 +23,19 @@ export const Container = styled.div`
         }
     }
 
+    a {
+        color: #cc00ff;
+        font-size: 1.75rem;
+    }
+
     @media (max-width: 290px) {
         button {
-            width: 100px;
-            height: 50px;
+            width: 6.25rem;
+            height: 3.125rem;
+            font-size: 0.9rem;
+        }
+
+        a {
             font-size: 0.9rem;
         }
     }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '../Sidebar'
 import { Container } from './styles'
+import { navData } from '../../../text/texts'
 
 const Navbar: React.FC = () => {
     return (
@@ -8,20 +9,16 @@ const Navbar: React.FC = () => {
             <Container>
                 <ul>
                     <li>
-                        <a href="#">HOME</a>
+                        <a href="#">{navData.home}</a>
                     </li>
                     <li>
-                        <a href="#" className="border">
-                            ABOUT
-                        </a>
+                        <a href="#firstAbout">{navData.about}</a>
                     </li>
                     <li>
-                        <a href="#" className="border">
-                            PROJECTS
-                        </a>
+                        <a href="#">{navData.projects}</a>
                     </li>
                     <li>
-                        <a href="#">CONTACT</a>
+                        <a href="#">{navData.contact}</a>
                     </li>
                 </ul>
             </Container>

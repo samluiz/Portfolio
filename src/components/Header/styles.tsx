@@ -8,4 +8,9 @@ export const Container = styled.header`
     z-index: 100;
     width: 100%;
     position: fixed;
+
+    @media (max-width: 670px) {
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
 `
