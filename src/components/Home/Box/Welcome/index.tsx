@@ -1,15 +1,17 @@
 import React from 'react'
 import { Container } from './styles'
 import Typewriter from 'typewriter-effect'
-import { homeData } from '../../../../text/texts'
+import { useTranslation } from 'react-i18next'
 
 const Welcome: React.FC = () => {
+    const { t } = useTranslation()
+
     return (
         <>
             <Container>
                 <Typewriter
                     options={{
-                        strings: [homeData.welcome],
+                        strings: [t('welcome')],
                         autoStart: true,
                         loop: true,
                     }}

@@ -1,24 +1,26 @@
 import React from 'react'
 import Sidebar from '../Sidebar'
 import { Container } from './styles'
-import { navData } from '../../../text/texts'
+import { useTranslation } from 'react-i18next'
 
 const Navbar: React.FC = () => {
+    const { t } = useTranslation()
+
     return (
         <>
             <Container>
                 <ul>
                     <li>
-                        <a href="#">{navData.home}</a>
+                        <a href="#">{t('home')}</a>
                     </li>
                     <li>
-                        <a href="#firstAbout">{navData.about}</a>
+                        <a href="#firstAbout">{t('about')}</a>
                     </li>
                     <li>
-                        <a href="#">{navData.projects}</a>
+                        <a href="#">{t('projects')}</a>
                     </li>
                     <li>
-                        <a href="#">{navData.contact}</a>
+                        <a href="#">{t('contact')}</a>
                     </li>
                 </ul>
             </Container>

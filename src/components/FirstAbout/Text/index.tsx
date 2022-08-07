@@ -1,12 +1,14 @@
 import React from 'react'
 import { Container } from './styles'
-import { aboutData } from '../../../text/texts'
+import { useTranslation } from 'react-i18next'
 
 const Text: React.FC = () => {
+    const { t } = useTranslation()
+
     return (
         <>
             <Container>
-                <span>{aboutData.textOne}</span>
+                <span>{t('textone')}</span>
             </Container>
         </>
     )

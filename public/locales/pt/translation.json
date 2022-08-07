@@ -1,0 +1,19 @@
+{
+    "home": "INÍCIO",
+    "about": "SOBRE",
+    "projects": "PROJETOS",
+    "contact": "CONTATO",
+
+    "welcome": "Bem-vindo ao meu mundo misterioso...",
+    "button": "Desbrave",
+
+    "textone": "Atualmente estudante de Análise e Desenvolvimento de Sistemas no IFPI, tive meu primeiro contato com programação no primeiro ano do ensino médio técnico em Programação para Jogos Digitais (2019), onde tive uma breve introdução a Python e Java no decorrer do curso.",
+
+    "texttwo": "Em meados de 2021, me interessei mais ainda pela programação por motivação de um grande amigo e comecei meus estudos em Desenvolvimento Web por conta própria, com HTML, CSS e Javascript..",
+
+    "textthree": "Hoje sou um desenvolvedor Front End com o objetivo de ser Fullstack. Apaixonado pelo design e interatividade que a internet proporciona, aprecio códigos limpos, semânticos e legíveis e possuo muita fome de aprendizado.",
+
+    "titleskills": "MINHAS HABILIDADES",
+    "titleprojects": "Aqui estão alguns dos meus projetos recentes",
+    "titlecontact": "Sinta-se livre para entrar em contato comigo"
+}

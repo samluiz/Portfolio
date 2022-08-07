@@ -1,24 +1,26 @@
 import React from 'react'
 import { Container } from './styles'
 import { slide as Menu } from 'react-burger-menu'
-import { navData } from '../../../text/texts'
+import { useTranslation } from 'react-i18next'
 
 const Sidebar: React.FC = () => {
+    const { t } = useTranslation()
+
     return (
         <>
             <Container>
                 <Menu>
                     <a id="home" className="menu-item" href="#">
-                        {navData.home}
+                        {t('home')}
                     </a>
                     <a id="about" className="menu-item" href="#firstAbout">
-                        {navData.about}
+                        {t('about')}
                     </a>
                     <a id="projects" className="menu-item" href="/">
-                        {navData.projects}
+                        {t('projects')}
                     </a>
                     <a id="contact" className="menu-item" href="/">
-                        {navData.contact}
+                        {t('contact')}
                     </a>
                 </Menu>
             </Container>

@@ -1,0 +1,19 @@
+{
+  "home": "HOME",
+  "about": "ABOUT",
+  "projects": "PROJECTS",
+  "contact": "CONTACT",
+
+  "welcome": "Welcome to my mysterious world...",
+  "button": "Dive deep",
+
+  "textone": "Currently a student enrolled in a BTech of System Development and Analysis at the Federal Institute of Piauí (IFPI), Brazil, i had my first contact with programming in my Game Development technical high school freshman year, where i learned the basics of logics, algorithms, Python and Java during the course.",
+
+  "texttwo": "Somewhen in 2021, i got even more interested in programming because of a great friends motivation and started my studies in Web Development (HTML, CSS, Javascript) by myself.",
+
+  "textthree": "Today im a developer passionate about the interactivity that the internet gives us. Enthusiast of clean, readable and semantic code. With a huge will of learning new things and solving new problems.",
+
+  "titleskills": "MY MAIN SKILLS",
+  "titleprojects": "Here are some of my recent projects",
+  "titlecontact": "Feel free to contact me anytime"
+}

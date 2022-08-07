@@ -1,13 +1,14 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Container } from './styles'
-import { homeData } from '../../../../text/texts'
 
 const Button: React.FC = () => {
+    const { t } = useTranslation()
     return (
         <>
             <Container>
                 <button>
-                    <a href="#firstAbout">{homeData.button}</a>
+                    <a href="#firstAbout">{t('button')}</a>
                 </button>
             </Container>
         </>
