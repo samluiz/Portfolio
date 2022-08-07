@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
     display: grid;
     place-items: center;
-    width: fit-content;
+    width: 6rem;
     grid-auto-flow: column;
     gap: 1rem;
 

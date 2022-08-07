@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import LanguageSwitcher from '../LanguageSwitcher'
 import Logo from './Logo'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
@@ -6,6 +7,16 @@ import Socials from './Socials'
 import { Container } from './styles'
 
 const Header: React.FC = () => {
+    const [isDesktop, setDesktop] = useState(window.innerWidth > 650)
+
+    const updateMedia = () => {
+        setDesktop(window.innerWidth > 670)
+    }
+
+    useEffect(() => {
+        window.addEventListener('resize', updateMedia)
+        return () => window.removeEventListener('resize', updateMedia)
+    })
     return (
         <>
             <Container>
@@ -13,6 +24,7 @@ const Header: React.FC = () => {
                 <Navbar />
                 <Socials />
                 <Sidebar />
+                {isDesktop ? <LanguageSwitcher /> : null}
             </Container>
         </>
     )

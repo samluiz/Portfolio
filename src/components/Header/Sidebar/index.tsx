@@ -2,6 +2,7 @@ import React from 'react'
 import { Container } from './styles'
 import { slide as Menu } from 'react-burger-menu'
 import { useTranslation } from 'react-i18next'
+import LanguageSwitcher from '../../LanguageSwitcher'
 
 const Sidebar: React.FC = () => {
     const { t } = useTranslation()
@@ -22,6 +23,9 @@ const Sidebar: React.FC = () => {
                     <a id="contact" className="menu-item" href="/">
                         {t('contact')}
                     </a>
+                    <div className="menu-item">
+                        <LanguageSwitcher />
+                    </div>
                 </Menu>
             </Container>
         </>

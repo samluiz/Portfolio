@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import LanguageSwitcher from '../LanguageSwitcher'
 import Box from './Box'
 import { Container } from './styles'
@@ -10,7 +10,6 @@ const Home: React.FC = () => {
             <Container id="home">
                 <img src={ReactImg} alt="React" className="react" />
                 <Box />
-                <LanguageSwitcher />
             </Container>
         </>
     )

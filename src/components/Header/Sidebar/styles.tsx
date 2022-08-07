@@ -23,6 +23,7 @@ export const Container = styled.div`
     /* Color/shape of burger icon bars on hover*/
     .bm-burger-bars-hover {
         background: #c6c6c6;
+        transform: scaleX(0.5);
     }
 
     /* Position and sizing of clickable cross button */
