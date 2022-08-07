@@ -21,4 +21,11 @@ export const Container = styled.div`
         left: 0.625rem;
         z-index: 1;
     }
+
+    @media (max-width: 290px) {
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
 `

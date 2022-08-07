@@ -22,4 +22,12 @@ export const Container = styled.div`
             color: #8f00ac;
         }
     }
+
+    @media (max-width: 290px) {
+        button {
+            width: 100px;
+            height: 50px;
+            font-size: 0.9rem;
+        }
+    }
 `

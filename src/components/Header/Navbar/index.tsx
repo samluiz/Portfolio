@@ -1,4 +1,5 @@
 import React from 'react'
+import Sidebar from '../Sidebar'
 import { Container } from './styles'
 
 const Navbar: React.FC = () => {

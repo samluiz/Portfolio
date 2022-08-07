@@ -5,4 +5,8 @@ export const Container = styled.div`
     place-items: center;
     max-width: fit-content;
     font-size: 1.75rem;
+
+    @media (max-width: 290px) {
+        font-size: 0.8rem;
+    }
 `

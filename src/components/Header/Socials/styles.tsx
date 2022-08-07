@@ -12,4 +12,8 @@ export const Container = styled.div`
             transform: scale(1.02);
         }
     }
+
+    @media (max-width: 670px) {
+        display: none;
+    }
 `

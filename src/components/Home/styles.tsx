@@ -34,4 +34,23 @@ export const Container = styled.main`
             transform: rotate(360deg);
         }
     }
+
+    @media (max-width: 970px) {
+        .react {
+            right: 5rem;
+        }
+    }
+
+    @media (max-width: 770px) {
+        .react {
+            width: 15.625rem;
+            height: 15.625rem;
+        }
+    }
+
+    @media (max-width: 670px) {
+        .react {
+            display: none;
+        }
+    }
 `
