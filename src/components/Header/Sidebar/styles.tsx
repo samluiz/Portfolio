@@ -17,6 +17,7 @@ export const Container = styled.div`
     /* Color/shape of burger icon bars */
     .bm-burger-bars {
         background: #ffffff;
+        transition-duration: 0.2s;
     }
 
     /* Color/shape of burger icon bars on hover*/
@@ -57,7 +58,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
     /* Wrapper for item list */
     .bm-item-list {
         color: #b8b7ad;
-        padding: 0.8em;
+        padding: 0.2em;
     }
 
     /* Individual item */
@@ -73,5 +74,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
     @media (min-width: 670px) {
         display: none;
+    }
+
+    @media (max-width: 470px) {
+        font-size: 0.8rem;
+    }
+
+    @media (max-width: 370px) {
+        font-size: 0.5rem;
     }
 `

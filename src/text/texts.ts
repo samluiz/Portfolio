@@ -6,7 +6,7 @@ export const navData = {
 }
 
 export const homeData = {
-    welcome: 'Welcome to my mysterious world',
+    welcome: 'Welcome to my mysterious world...',
     button: 'Dive deep',
 }
 

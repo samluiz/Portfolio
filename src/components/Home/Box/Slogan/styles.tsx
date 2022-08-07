@@ -15,7 +15,7 @@ export const Container = styled.div`
     }
 
     .opacity {
-        opacity: 30%;
+        opacity: 50%;
         position: absolute;
         top: 0.625rem;
         left: 0.625rem;

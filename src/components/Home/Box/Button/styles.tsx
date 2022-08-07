@@ -8,7 +8,10 @@ export const Container = styled.div`
     button {
         border-left: 1px solid #cc00ff;
         border-right: 1px solid #cc00ff;
+        border-bottom: none;
+        border-top: none;
         border-radius: 10px;
+        outline: none;
         height: 3.75rem;
         width: 12.5rem;
         color: #cc00ff;
