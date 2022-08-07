@@ -31,4 +31,12 @@ export const Container = styled.div`
             font-size: 0.75rem;
         }
     }
+
+    @media (max-width: 400px) {
+        width: 100%;
+        padding: 1.5rem;
+        span {
+            font-size: 1.2rem;
+        }
+    }
 `

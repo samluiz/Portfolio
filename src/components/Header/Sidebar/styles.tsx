@@ -51,7 +51,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
     /* General sidebar styles */
     .bm-menu {
-        background: #8803aa;
+        background: #000000;
         font-size: 2em;
     }
 
