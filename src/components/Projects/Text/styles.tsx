@@ -21,13 +21,14 @@ export const Container = styled.div`
     }
 
     @media (max-width: 500px) {
-        font-size: 2em;
-        width: 100%;
+        font-size: 1.5em;
+        width: 10rem;
         justify-content: center;
         align-items: center;
 
         span {
             text-align: center;
+
             letter-spacing: 1rem;
         }
     }

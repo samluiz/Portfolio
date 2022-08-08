@@ -1,25 +1,25 @@
 {
-  "home": "HOME",
-  "about": "ABOUT",
-  "projects": "PROJECTS",
-  "contact": "CONTACT",
+    "home": "HOME",
+    "about": "ABOUT",
+    "projects": "PROJECTS",
+    "contact": "CONTACT",
 
-  "welcome": "Welcome to my mysterious world...",
-  "button": "Dive deep",
+    "welcome": "Welcome to my mysterious world...",
+    "button": "Dive deep",
 
-  "textone": "Currently a student enrolled in a BTech of System Development and Analysis at the Federal Institute of Piauí (IFPI), Brazil, i had my first contact with programming in my Game Development technical high school freshman year, where i learned the basics of logics, algorithms, Python and Java during the course.",
+    "textone": "Currently a student enrolled in a BTech of System Development and Analysis at the Federal Institute of Piauí (IFPI), Brazil, i had my first contact with programming in my Game Development technical high school freshman year, where i learned the basics of logics, algorithms, Python and Java during the course.",
 
-  "texttwo": "Somewhen in 2021, i got even more interested in programming because of a great friends motivation and started my studies in Web Development (HTML, CSS, Javascript) by myself.",
+    "texttwo": "Somewhen in 2021, i got even more interested in programming because of a great friends motivation and started my studies in Web Development (HTML, CSS, Javascript) by myself.",
 
-  "textthree": "Today im a developer passionate about the interactivity that the internet gives us. Enthusiast of clean, readable and semantic code. With a huge will of learning new things and solving new problems.",
+    "textthree": "Today im a developer passionate about the interactivity that the internet gives us. Enthusiast of clean, readable and semantic code. With a huge will of learning new things and solving new problems.",
 
-  "titleskills": "MY MAIN SKILLS",
-  "titleprojects": "Here are some of my recent projects",
-  "titlecontact": "Feel free to contact me anytime",
+    "titleskills": "MY MAIN SKILLS",
+    "titleprojects": "Here are some of my recent projects",
+    "titlecontact": "Feel free to contact me anytime",
 
-  "site1" : "Listing some comics from the Marvel API. ReactJS, TailwindCSS, Axios",
-  "site2" : "Register and login page with passport authentication. ExpressJS, HTML, CSS.",
-  "site3" : "TodoApp with basic functions and nice visuals. ReactJS, TailwindCSS.",
+    "site1": "Listing some comics from the Marvel API. ReactJS, TailwindCSS, Axios",
+    "site2": "Register and login page with passport authentication. ExpressJS, HTML, CSS.",
+    "site3": "Basic CRUD with pretty nice visuals. ReactJS, TailwindCSS.",
 
-  "footer": "All Rights Reserved to Saurs () => Samuel Luiz && Jefté Medeiros 2022"
+    "footer": "All Rights Reserved to Saurs () => Samuel Luiz 2022"
 }

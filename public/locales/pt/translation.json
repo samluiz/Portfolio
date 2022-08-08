@@ -13,13 +13,13 @@
 
     "textthree": "Hoje sou um desenvolvedor Front End com o objetivo de ser Fullstack. Apaixonado pelo design e interatividade que a internet proporciona, aprecio códigos limpos, semânticos e legíveis e possuo muita fome de aprendizado.",
 
-    "titleskills": "MINHAS HABILIDADES",
+    "titleskills": "HABILIDADES",
     "titleprojects": "Aqui estão alguns dos meus projetos recentes",
-    "titlecontact": "Sinta-se livre para entrar em contato comigo",
+    "titlecontact": "Fique a vontade para entrar em contato comigo",
 
     "site1": "Lista de quadrinhos consumindo a Marvel API. ReactJS, TailwindCSS, Axios",
     "site2": "Interface de login e registro com autenticação. ExpressJS, HTML, CSS.",
-    "site3": "Lista de tarefas com funções CRUD básicas e belos visuais. ReactJS, TailwindCSS.",
+    "site3": "CRUD básico com belos visuais. ReactJS, TailwindCSS.",
 
-    "footer": "Todos os direitos reservados: Saurs () => Samuel Luiz && Jefté Medeiros 2022"
+    "footer": "Todos os direitos reservados: Saurs () => Samuel Luiz 2022"
 }

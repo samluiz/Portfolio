@@ -3,9 +3,9 @@ import { createGlobalStyle } from 'styled-components'
 export const GlobalStyles = createGlobalStyle`
 
   body {
-    background-color: #696969;
+    background-color: #000000;
     color: white;
-    min-height: calc(100vh * 6);
+    min-height: fit-content;
     font-family: Sen, 'sans-serif';
     font-smooth: antialised;
     -webkit-font-smoothing: antialiased;

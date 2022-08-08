@@ -9,6 +9,8 @@ export const Container = styled.div`
     border-bottom: 1px solid #cc00ff;
     padding: 1rem;
     place-items: center;
+    z-index: 10;
+    overflow: hidden;
 
     a {
         border-radius: 5px;
@@ -18,7 +20,6 @@ export const Container = styled.div`
         align-items: flex-start;
         justify-content: center;
         overflow: hidden;
-        transition-duration: 0.2s;
 
         &:hover {
             gap: 1rem;
@@ -42,8 +43,10 @@ export const Container = styled.div`
     }
 
     span {
-        transition-duration: 0.5s, 0.5s, 3s;
-        transition-property: width, height, opacity;
+        transition-duration: 0.5s, 0.5s, 3s, 2s;
+        transition-delay: 0s, 0s, 0.2s, 0s;
+        transition-timing-function: ease, ease, ease, ease;
+        transition-property: width, height, opacity, margin;
         display: block;
         font-size: 1.2rem;
         opacity: 0;
@@ -58,6 +61,12 @@ export const Container = styled.div`
 
         &:hover {
             filter: brightness(0.5);
+        }
+    }
+
+    @media (max-width: 570px) {
+        &:before {
+            content: 'Press 👆';
         }
     }
 `

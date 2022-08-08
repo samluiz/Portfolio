@@ -9,15 +9,20 @@ export const Container = styled.div`
     border-bottom: none;
     width: 30rem;
     padding: 1rem;
+    font-size: 1.5rem;
 
-    .tech {
+    a {
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 1rem;
     }
+    svg {
+        width: 70px;
+        height: 70px;
+    }
 
-    img {
+    svg {
         transition-duration: 0.2s;
         filter: grayscale(1);
         &:hover {
@@ -72,6 +77,15 @@ export const Container = styled.div`
     @media (max-width: 490px) {
         width: 12rem;
 
+        svg {
+            width: 50px;
+            height: 50px;
+        }
+
+        a {
+            justify-content: center;
+        }
+
         span {
             letter-spacing: 0;
             font-size: 1rem;
@@ -80,6 +94,11 @@ export const Container = styled.div`
 
     @media (max-width: 270px) {
         width: 7rem;
+
+        a {
+            justify-content: center;
+            flex-direction: column;
+        }
 
         span {
             letter-spacing: 0;

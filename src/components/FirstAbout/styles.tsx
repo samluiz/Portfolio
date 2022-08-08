@@ -6,4 +6,8 @@ export const Container = styled.section`
     display: grid;
     grid-auto-flow: column;
     place-items: center;
+
+    @media (max-width: 400px) {
+        min-height: fit-content;
+    }
 `

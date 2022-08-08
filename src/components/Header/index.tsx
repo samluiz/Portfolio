@@ -5,9 +5,11 @@ import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 import Socials from './Socials'
 import { Container } from './styles'
+import { useScrollDirection } from '../ScrollDirection'
 
 const Header: React.FC = () => {
     const [isDesktop, setDesktop] = useState(window.innerWidth > 650)
+    const scrollDirection = useScrollDirection()
 
     const updateMedia = () => {
         setDesktop(window.innerWidth > 670)
@@ -19,7 +21,7 @@ const Header: React.FC = () => {
     })
     return (
         <>
-            <Container>
+            <Container id={`${scrollDirection === "down" ? "hide" : "show"}`}>
                 <Logo />
                 <Navbar />
                 <Socials />

@@ -10,6 +10,9 @@ import LocaleContext from './LocaleContext'
 import SecondAbout from './components/SecondAbout'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import { BrowserRouter } from 'react-router-dom'
+import Contacts from './components/Contacts'
+import Footer from './components/Footer'
 
 function App() {
     const [locale, setLocale] = useState(i18n.language)
@@ -18,19 +21,23 @@ function App() {
 
     return (
         <>
-            <GlobalStyles />
-            <LocaleContext.Provider value={{ locale, setLocale }}>
-                <Suspense
-                    fallback={<ReactLoading type="bars" color="#cc00ff" />}
-                >
-                    <Header />
-                    <Home />
-                    <FirstAbout />
-                    <SecondAbout />
-                    <Skills />
-                    <Projects />
-                </Suspense>
-            </LocaleContext.Provider>
+            <BrowserRouter>
+                <GlobalStyles />
+                <LocaleContext.Provider value={{ locale, setLocale }}>
+                    <Suspense
+                        fallback={<ReactLoading type="bars" color="#cc00ff" />}
+                    >
+                        <Header />
+                        <Home />
+                        <FirstAbout />
+                        <SecondAbout />
+                        <Skills />
+                        <Projects />
+                        <Contacts />
+                        <Footer />
+                    </Suspense>
+                </LocaleContext.Provider>
+            </BrowserRouter>
         </>
     )
 }

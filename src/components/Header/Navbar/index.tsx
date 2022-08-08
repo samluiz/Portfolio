@@ -2,6 +2,7 @@ import React from 'react'
 import Sidebar from '../Sidebar'
 import { Container } from './styles'
 import { useTranslation } from 'react-i18next'
+import { HashLink as Link } from 'react-router-hash-link'
 
 const Navbar: React.FC = () => {
     const { t } = useTranslation()
@@ -11,16 +12,16 @@ const Navbar: React.FC = () => {
             <Container>
                 <ul>
                     <li>
-                        <a href="#">{t('home')}</a>
+                        <Link to="#homePage">{t('home')}</Link>
                     </li>
                     <li>
-                        <a href="#firstAbout">{t('about')}</a>
+                        <Link to="#firstAbout">{t('about')}</Link>
                     </li>
                     <li>
-                        <a href="#projects">{t('projects')}</a>
+                        <Link to="#projectId">{t('projects')}</Link>
                     </li>
                     <li>
-                        <a href="#contact">{t('contact')}</a>
+                        <Link to="#contactSection">{t('contact')}</Link>
                     </li>
                 </ul>
             </Container>

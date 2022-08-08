@@ -18,6 +18,6 @@ export const Container = styled.div`
     }
 
     @media (max-width: 300px) {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 `
