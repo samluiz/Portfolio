@@ -46,7 +46,10 @@ const Socials: React.FC = () => {
                     </a>
                 </div>
                 <div>
-                    <a href="https://www.instagram.com/7samuca7">
+                    <a
+                        href="https://www.instagram.com/7samuca7"
+                        target="_blank"
+                    >
                         <svg
                             width="63"
                             height="64"
@@ -102,7 +105,10 @@ const Socials: React.FC = () => {
                     </a>
                 </div>
                 <div>
-                    <a href="https://api.whatsapp.com/send?phone=5586994916566">
+                    <a
+                        href="https://api.whatsapp.com/send?phone=5586994916566"
+                        target="_blank"
+                    >
                         <svg
                             width="72"
                             height="72"
@@ -129,8 +135,7 @@ const Socials: React.FC = () => {
                     </a>
                 </div>
                 <div>
-                    {' '}
-                    <a href="https://github.com/saurs">
+                    <a href="https://github.com/saurs" target="_blank">
                         <svg
                             width="30"
                             height="30"
