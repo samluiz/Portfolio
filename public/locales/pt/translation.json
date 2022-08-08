@@ -15,5 +15,11 @@
 
     "titleskills": "MINHAS HABILIDADES",
     "titleprojects": "Aqui estão alguns dos meus projetos recentes",
-    "titlecontact": "Sinta-se livre para entrar em contato comigo"
+    "titlecontact": "Sinta-se livre para entrar em contato comigo",
+
+    "site1": "Lista de quadrinhos consumindo a Marvel API. ReactJS, TailwindCSS, Axios",
+    "site2": "Interface de login e registro com autenticação. ExpressJS, HTML, CSS.",
+    "site3": "Lista de tarefas com funções CRUD básicas e belos visuais. ReactJS, TailwindCSS.",
+
+    "footer": "Todos os direitos reservados: Saurs () => Samuel Luiz && Jefté Medeiros 2022"
 }

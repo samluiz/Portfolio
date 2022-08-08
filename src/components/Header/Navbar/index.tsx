@@ -17,10 +17,10 @@ const Navbar: React.FC = () => {
                         <a href="#firstAbout">{t('about')}</a>
                     </li>
                     <li>
-                        <a href="#">{t('projects')}</a>
+                        <a href="#projects">{t('projects')}</a>
                     </li>
                     <li>
-                        <a href="#">{t('contact')}</a>
+                        <a href="#contact">{t('contact')}</a>
                     </li>
                 </ul>
             </Container>

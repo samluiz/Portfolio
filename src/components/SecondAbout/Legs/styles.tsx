@@ -6,6 +6,14 @@ export const Container = styled.div`
     height: 100%;
     width: 50%;
 
+    img {
+        transition-duration: 0.2s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+
     @media (max-width: 970px) {
         img {
             width: 200px;

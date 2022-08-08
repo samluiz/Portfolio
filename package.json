@@ -26,6 +26,8 @@
     "react-i18next": "^11.18.3",
     "react-icons": "^4.4.0",
     "react-loading": "^2.0.3",
+    "react-parallax-hover": "^2.0.2",
+    "react-parallax-tilt": "^1.7.51",
     "styled-components": "^5.3.5",
     "typewriter-effect": "^2.19.0"
   },

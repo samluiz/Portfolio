@@ -15,5 +15,11 @@
 
   "titleskills": "MY MAIN SKILLS",
   "titleprojects": "Here are some of my recent projects",
-  "titlecontact": "Feel free to contact me anytime"
+  "titlecontact": "Feel free to contact me anytime",
+
+  "site1" : "Listing some comics from the Marvel API. ReactJS, TailwindCSS, Axios",
+  "site2" : "Register and login page with passport authentication. ExpressJS, HTML, CSS.",
+  "site3" : "TodoApp with basic functions and nice visuals. ReactJS, TailwindCSS.",
+
+  "footer": "All Rights Reserved to Saurs () => Samuel Luiz && Jefté Medeiros 2022"
 }

@@ -9,6 +9,7 @@ import i18n from './i18n'
 import LocaleContext from './LocaleContext'
 import SecondAbout from './components/SecondAbout'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 function App() {
     const [locale, setLocale] = useState(i18n.language)
@@ -27,6 +28,7 @@ function App() {
                     <FirstAbout />
                     <SecondAbout />
                     <Skills />
+                    <Projects />
                 </Suspense>
             </LocaleContext.Provider>
         </>
