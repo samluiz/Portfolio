@@ -17,7 +17,7 @@ Technologies that i used:
 Figma design layout: https://www.figma.com/file/gyvKvrd3emAhJ94qbOkxjI/Portfolio-Samuel-Luiz?node-id=39%3A2
 
 - Currently this website is available in English (EN) and Portuguese (pt-BR).
-- If you're a desktop or a laptop, you can switch the language by hovering the icon up there in the top right corner, and then click on your language.
+- If you're on a desktop or a laptop, you can switch the language by hovering the icon up there in the top right corner, and then click on your language.
 - If you're on a tablet or a mobile device, you can press the hamburger menu located in the same top right corner, and then click on your language.
 - If you're somehow interested in contributing to this website for no reason or benefit, 
 feel free to support and add your language in the locales folder: ("public/locales/e.g fr").
