@@ -45,6 +45,6 @@ Design do layout no Figma: https://www.figma.com/file/gyvKvrd3emAhJ94qbOkxjI/Por
 - Se você está num tablet ou dispositivo móvel, você pode pressionar o ícone do menu hamburger localizado no mesmo canto superior direito, e então escolher seu idioma.
 - Se por algum motivo você está interessado em contribuir para este website sem razão ou benefício,
 sinta-se livre para apoiar e adicionar seu idioma na pasta locales: ("public/locales/e.g fr").
-Não se preocupe, eu fico com a parte de adicionar o ícone da bandeira e a funcionalidade, não hesite em fazer um pull request
+Não se preocupe, eu fico com a parte de adicionar o ícone da bandeira e a funcionalidade, não hesite em fazer um pull request.
 
 Divirta-se!
