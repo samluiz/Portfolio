@@ -6,50 +6,97 @@ import Node from '/public/img/Container4/Node.svg'
 import ReactIcon from '/public/img/Container4/React.svg'
 import SQL from '/public/img/Container4/SQL.svg'
 import Tilt from 'react-parallax-tilt'
+import ScrollAnimation from 'react-animate-on-scroll'
+import 'animate.css/animate.compat.css'
 
 const Tech: React.FC = () => {
     return (
         <>
             <Container>
                 <div className="tech">
-                    <Tilt>
-                        <img src={Javascript} alt="Javascript" />
-                    </Tilt>
+                    <ScrollAnimation animateIn="fadeIn" animateOut="zoomOut">
+                        <Tilt>
+                            <img src={Javascript} alt="Javascript" />
+                        </Tilt>
+                    </ScrollAnimation>
                     <div className="center">
-                        <span>Javascript</span>
+                        <div className="text">
+                            <ScrollAnimation
+                                animateIn="fadeInRightBig"
+                                animateOut="zoomOut"
+                            >
+                                <span>Javascript</span>
+                            </ScrollAnimation>
+                        </div>
                     </div>
                 </div>
                 <div className="tech">
-                    <Tilt>
-                        <img src={Typescript} alt="Typescript" />
-                    </Tilt>
+                    <ScrollAnimation animateIn="fadeIn" animateOut="zoomOut">
+                        <Tilt>
+                            <img src={Typescript} alt="Typescript" />
+                        </Tilt>
+                    </ScrollAnimation>
                     <div className="center">
-                        <span>Typescript</span>
+                        <div className="text">
+                            <ScrollAnimation
+                                animateIn="fadeInRightBig"
+                                animateOut="zoomOut"
+                            >
+                                <span>Typescript</span>
+                            </ScrollAnimation>
+                        </div>
                     </div>
                 </div>
                 <div className="tech">
-                    <Tilt>
-                        <img src={ReactIcon} alt="ReactIcon" />
-                    </Tilt>
+                    <ScrollAnimation animateIn="fadeIn" animateOut="zoomOut">
+                        <Tilt>
+                            <img src={ReactIcon} alt="ReactIcon" />
+                        </Tilt>
+                    </ScrollAnimation>
                     <div className="center">
-                        <span>React</span>
+                        <div className="text">
+                            <ScrollAnimation
+                                animateIn="fadeInRightBig"
+                                animateOut="zoomOut"
+                            >
+                                <span>ReactJS</span>
+                            </ScrollAnimation>
+                        </div>
                     </div>
                 </div>
                 <div className="tech">
-                    <Tilt>
-                        <img src={Node} alt="Node" />
-                    </Tilt>
+                    <ScrollAnimation animateIn="fadeIn" animateOut="zoomOut">
+                        <Tilt>
+                            <img src={Node} alt="Node" />
+                        </Tilt>
+                    </ScrollAnimation>
                     <div className="center">
-                        <span>Node</span>
+                        <div className="text">
+                            <ScrollAnimation
+                                animateIn="fadeInRightBig"
+                                animateOut="zoomOut"
+                            >
+                                <span>NodeJS</span>
+                            </ScrollAnimation>
+                        </div>
                     </div>
                 </div>
 
                 <div className="tech">
-                    <Tilt>
-                        <img src={SQL} alt="SQL" />
-                    </Tilt>
+                    <ScrollAnimation animateIn="fadeIn" animateOut="zoomOut">
+                        <Tilt>
+                            <img src={SQL} alt="SQL" />
+                        </Tilt>
+                    </ScrollAnimation>
                     <div className="center">
-                        <span>SQL</span>
+                        <div className="text">
+                            <ScrollAnimation
+                                animateIn="fadeInRightBig"
+                                animateOut="zoomOut"
+                            >
+                                <span>SQL</span>
+                            </ScrollAnimation>
+                        </div>
                     </div>
                 </div>
             </Container>

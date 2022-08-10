@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-    min-height: 100vh;
+    min-height: 80vh;
     min-width: 100vw;
     background-color: black;
     display: grid;

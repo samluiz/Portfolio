@@ -6,7 +6,7 @@ export const Container = styled.div`
     height: 100%;
     width: 50%;
 
-    span {
+    .text {
         font-size: 1.5rem;
         padding: 1rem;
         border-left: 1px solid #cc00ff;
@@ -21,13 +21,13 @@ export const Container = styled.div`
     }
 
     @media (max-width: 970px) {
-        span {
+        .text {
             font-size: 1rem;
         }
     }
 
     @media (max-width: 600px) {
-        span {
+        .text {
             font-size: 0.75rem;
         }
     }
@@ -35,7 +35,7 @@ export const Container = styled.div`
     @media (max-width: 400px) {
         width: 100%;
         padding: 1.5rem;
-        span {
+        .text {
             font-size: 1.2rem;
         }
     }

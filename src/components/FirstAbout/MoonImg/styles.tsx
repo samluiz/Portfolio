@@ -8,21 +8,21 @@ export const Container = styled.div`
     pointer-events: none;
 
     @media (max-width: 970px) {
-        img {
+        .moon {
             width: 300px;
             height: 300px;
         }
     }
 
     @media (max-width: 600px) {
-        img {
+        .moon {
             width: 200px;
             height: 200px;
         }
     }
 
     @media (max-width: 400px) {
-        img {
+        .moon {
             display: none;
         }
     }

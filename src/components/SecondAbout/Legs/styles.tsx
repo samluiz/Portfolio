@@ -6,7 +6,7 @@ export const Container = styled.div`
     height: 100%;
     width: 50%;
 
-    img {
+    .leg {
         transition-duration: 0.2s;
 
         &:hover {
@@ -15,21 +15,21 @@ export const Container = styled.div`
     }
 
     @media (max-width: 970px) {
-        img {
+        .leg {
             width: 200px;
             height: 200px;
         }
     }
 
     @media (max-width: 670px) {
-        img {
+        .leg {
             width: 150px;
             height: 150px;
         }
     }
 
     @media (max-width: 470px) {
-        img {
+        .leg {
             width: 100px;
             height: 100px;
         }
@@ -37,7 +37,7 @@ export const Container = styled.div`
 
     @media (max-width: 400px) {
         width: 0;
-        img {
+        .leg {
             display: none;
         }
     }

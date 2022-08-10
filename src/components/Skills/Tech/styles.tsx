@@ -30,7 +30,7 @@ export const Container = styled.div`
         width: 70%;
     }
 
-    span {
+    .text {
         display: inline-block;
         vertical-align: middle;
         -webkit-transform: perspective(1px) translateZ(0);
@@ -42,7 +42,7 @@ export const Container = styled.div`
         overflow: hidden;
     }
 
-    span {
+    .text {
         &:before {
             content: '';
             position: absolute;
@@ -60,7 +60,7 @@ export const Container = styled.div`
             transition-timing-function: ease-out;
         }
     }
-    span {
+    .text {
         &:hover {
             &:before {
                 left: 0;
@@ -72,7 +72,7 @@ export const Container = styled.div`
     @media (max-width: 490px) {
         width: 12rem;
 
-        span {
+        .text {
             letter-spacing: 0;
             font-size: 1rem;
         }
@@ -81,7 +81,7 @@ export const Container = styled.div`
     @media (max-width: 270px) {
         width: 7rem;
 
-        span {
+        .text {
             letter-spacing: 0;
             display: none;
         }
