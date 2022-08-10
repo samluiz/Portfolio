@@ -11,7 +11,7 @@ Technologies that i used:
 - Styled Components
 - React Router
 - React-i18next, ContextAPI, ExpressJS (For the language selector)
-- Some react components and libraries (Icons, Tilt Parallax) 
+- Some react components and libraries (Icons, Tilt Parallax, React-Animate) 
 - Figma
 
 Figma design layout: https://www.figma.com/file/gyvKvrd3emAhJ94qbOkxjI/Portfolio-Samuel-Luiz?node-id=39%3A2
@@ -39,7 +39,7 @@ Tecnologias usadas:
 - Styled Components
 - React Router
 - React-i18next, ContextAPI, ExpressJS (Para o seletor de idioma)
-- Some react components and libraries (Icons, Tilt Parallax) 
+- Some react components and libraries (Icons, Tilt Parallax, React-Animate) 
 - Figma
 
 Design do layout no Figma: https://www.figma.com/file/gyvKvrd3emAhJ94qbOkxjI/Portfolio-Samuel-Luiz?node-id=39%3A2
