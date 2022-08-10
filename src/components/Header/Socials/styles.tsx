@@ -9,8 +9,9 @@ export const Container = styled.div`
 
     svg {
         transition-duration: 0.2s;
+        filter: grayscale(1);
         &:hover {
-            transform: scale(1.02);
+            filter: grayscale(0);
         }
     }
 
