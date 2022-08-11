@@ -21,7 +21,7 @@ const Header: React.FC = () => {
     })
     return (
         <>
-            <Container id={`${scrollDirection === "down" ? "hide" : "show"}`}>
+            <Container id={`${scrollDirection === 'down' ? 'hide' : 'show'}`}>
                 <Logo />
                 <Navbar />
                 <Socials />

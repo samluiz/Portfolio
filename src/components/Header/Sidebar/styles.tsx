@@ -73,7 +73,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
         background: rgba(0, 0, 0, 0.3);
     }
 
-    @media (min-width: 670px) {
+    @media (min-width: 650px) {
         display: none;
     }
 

@@ -39,6 +39,7 @@ export const Container = styled.main`
     @media (max-width: 970px) {
         .react img {
             right: 5rem;
+            opacity: 10%;
         }
     }
 

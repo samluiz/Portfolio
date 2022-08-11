@@ -47,7 +47,7 @@ export const Container = styled.nav`
         }
     }
 
-    @media (max-width: 670px) {
+    @media (max-width: 650px) {
         display: none;
     }
 `
