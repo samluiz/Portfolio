@@ -6,7 +6,7 @@ export const Container = styled.div`
     height: 100%;
     width: 50%;
 
-    .body {
+    .bodyimg {
         transition-duration: 0.2s;
 
         &:hover {
@@ -15,21 +15,21 @@ export const Container = styled.div`
     }
 
     @media (max-width: 970px) {
-        .body {
+        .body img {
             width: 200px;
             height: 200px;
         }
     }
 
     @media (max-width: 670px) {
-        .body {
+        .body img {
             width: 150px;
             height: 150px;
         }
     }
 
     @media (max-width: 470px) {
-        .body {
+        .body img {
             width: 100px;
             height: 100px;
         }
@@ -37,7 +37,7 @@ export const Container = styled.div`
 
     @media (max-width: 400px) {
         width: 0;
-        .body {
+        .body img {
             display: none;
         }
     }

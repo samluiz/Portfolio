@@ -10,7 +10,7 @@ const Jacket: React.FC = () => {
         <>
             <Container>
                 <Tilt>
-                    <div className="legs">
+                    <div className="leg">
                         <ScrollAnimation
                             animateIn="bounceInDown"
                             animateOut="zoomOut"

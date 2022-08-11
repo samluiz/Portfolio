@@ -37,13 +37,13 @@ export const Container = styled.main`
     }
 
     @media (max-width: 970px) {
-        .react {
+        .react img {
             right: 5rem;
         }
     }
 
     @media (max-width: 770px) {
-        .react {
+        .react img {
             width: 15.625rem;
             height: 15.625rem;
         }
