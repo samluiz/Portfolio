@@ -1,16 +1,19 @@
-import React from 'react'
-import { useTranslation } from 'react-i18next'
-import { Container } from './styles'
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import { Container } from './styles';
 
 const Footer: React.FC = () => {
-    const { t } = useTranslation()
-    return (
-        <>
-            <Container>
-                <span>{t('footer')}</span>
-            </Container>
-        </>
-    )
-}
+  const { t } = useTranslation();
+  const currentYear = new Date().getFullYear();
+  return (
+    <>
+      <Container>
+        <span>
+          {t('footer')}&copy; {currentYear}{' '}
+        </span>
+      </Container>
+    </>
+  );
+};
 
-export default Footer
+export default Footer;

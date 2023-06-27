@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from './styles'
-import Image from '/public/img/Container2/purple.svg'
+import Image from '/src/img/Container2/purple.svg'
 import ScrollAnimation from 'react-animate-on-scroll'
 import 'animate.css/animate.compat.css'
 

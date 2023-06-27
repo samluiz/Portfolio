@@ -1,25 +1,20 @@
-import React from 'react'
-import { useTranslation } from 'react-i18next'
-import { Container } from './styles'
-import ScrollAnimation from 'react-animate-on-scroll'
-import 'animate.css/animate.compat.css'
+import 'animate.css/animate.compat.css';
+import React from 'react';
+import TextSection from '../../TextSection';
+import { Container } from './styles';
 
 const TextRight: React.FC = () => {
-    const { t } = useTranslation()
-    return (
-        <>
-            <Container>
-                <div className="text">
-                    <ScrollAnimation
-                        animateIn="fadeInRightBig"
-                        animateOut="zoomOut"
-                    >
-                        <span>{t('textthree')}</span>
-                    </ScrollAnimation>
-                </div>
-            </Container>
-        </>
-    )
-}
+  return (
+    <>
+      <Container>
+        <TextSection
+          text="textthree"
+          animateIn="fadeInRightBig"
+          animateOut="zoomOut"
+        />
+      </Container>
+    </>
+  );
+};
 
-export default TextRight
+export default TextRight;

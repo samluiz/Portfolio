@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container } from './styles'
-import Typewriter from 'typewriter-effect'
 import { useTranslation } from 'react-i18next'
 
 const Welcome: React.FC = () => {
@@ -9,13 +8,7 @@ const Welcome: React.FC = () => {
     return (
         <>
             <Container>
-                <Typewriter
-                    options={{
-                        strings: [t('welcome')],
-                        autoStart: true,
-                        loop: true,
-                    }}
-                />
+                <span>{t('welcome')}</span>
             </Container>
         </>
     )

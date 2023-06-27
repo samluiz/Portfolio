@@ -1,25 +1,21 @@
 {
-    "home": "INÍCIO",
-    "about": "SOBRE",
-    "projects": "PROJETOS",
-    "contact": "CONTATO",
+  "home": "INÍCIO",
+  "about": "SOBRE",
+  "projects": "PROJETOS",
+  "contact": "CONTATO",
 
-    "welcome": "Bem-vindo ao meu mundo misterioso...",
-    "button": "Desbrave",
+  "welcome": "Bem-vindo ao meu mundo misterioso...",
+  "button": "Desbrave",
 
-    "textone": "Atualmente estudante de Análise e Desenvolvimento de Sistemas no IFPI, tive meu primeiro contato com programação no primeiro ano do ensino médio técnico em Programação para Jogos Digitais (2019), onde tive uma breve introdução a Python e Java no decorrer do curso.",
+  "textone": "Atualmente sou desenvolvedor de aplicações na IBM, atuando principalmente no desenvolvimento e manutenção de microsserviços e API's construídas com Java Spring Boot. Também tive contato com Angular e React.",
 
-    "texttwo": "Em meados de 2021, me interessei mais ainda pela programação por motivação de um grande amigo e comecei meus estudos em Desenvolvimento Web por conta própria, com HTML, CSS e Javascript.",
+  "texttwo": "Ofereço soluções digitais em serviços web, arquitetando e desenvolvendo sistemas e API's confiáveis e prontas para serem consumidas por qualquer cliente, seja web, mobile ou desktop.",
 
-    "textthree": "Hoje sou um desenvolvedor Front End com o objetivo de ser Fullstack. Apaixonado pelo design e interatividade que a internet proporciona, aprecio códigos limpos, semânticos e legíveis e possuo muita fome de aprendizado.",
+  "textthree": "Também ofereço serviços do lado do cliente, construindo layouts e interfaces web e consumindo API's usando Angular ou React.",
 
-    "titleskills": "HABILIDADES",
-    "titleprojects": "Aqui estão alguns dos meus projetos recentes",
-    "titlecontact": "Fique a vontade para entrar em contato comigo",
+  "titleskills": "HABILIDADES",
+  "titleprojects": "Aqui estão alguns dos meus projetos pessoas recentes no GitHub",
+  "titlecontact": "Fique a vontade para entrar em contato comigo",
 
-    "site1": "Lista de quadrinhos consumindo a Marvel API. ReactJS, TailwindCSS, Axios",
-    "site2": "Interface de login e registro com autenticação. ExpressJS, HTML, CSS.",
-    "site3": "CRUD básico com belos visuais. ReactJS, TailwindCSS.",
-
-    "footer": "Todos os direitos reservados: Saurs () => Samuel Luiz 2022"
+  "footer": "Todos os direitos reservados: Saurs () => Samuel Luiz "
 }

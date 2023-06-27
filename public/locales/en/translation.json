@@ -1,25 +1,21 @@
 {
-    "home": "HOME",
-    "about": "ABOUT",
-    "projects": "PROJECTS",
-    "contact": "CONTACT",
+  "home": "HOME",
+  "about": "ABOUT",
+  "projects": "PROJECTS",
+  "contact": "CONTACT",
 
-    "welcome": "Welcome to my mysterious world...",
-    "button": "Dive deep",
+  "welcome": "Hey! I'm Samuel Luiz and this is my portfolio!",
+  "button": "Dive deep",
 
-    "textone": "Currently a student enrolled in a BTech of System Development and Analysis at the Federal Institute of Piauí (IFPI), Brazil, i had my first contact with programming in my Game Development technical high school freshman year, where i learned the basics of logics, algorithms, Python and Java during the course.",
+  "textone": "Currently i'm an application developer at IBM, working mainly on the development and maintainment of microservices and API's built with Java Spring Boot and ASP.NET. I also had contact with Angular and React.",
 
-    "texttwo": "Somewhen in 2021, i got even more interested in programming because of a great friends motivation and started my studies in Web Development (HTML, CSS, Javascript) by myself.",
+  "texttwo": "I offer digital solutions in web services, architecting and developing ready and reliable systems and API's to be consumed by any client application, whether it is web, mobile or desktop",
 
-    "textthree": "Today im a developer passionate about the interactivity that the internet gives us. Enthusiast of clean, readable and semantic code. With a huge will of learning new things and solving new problems.",
+  "textthree": "I also offer client side services, building layouts and web interfaces and consuming API's with Angular or React.",
 
-    "titleskills": "MY MAIN SKILLS",
-    "titleprojects": "Here are some of my recent projects",
-    "titlecontact": "Feel free to contact me anytime",
+  "titleskills": "MY MAIN SKILLS",
+  "titleprojects": "Here are some of my recent side projects on GitHub",
+  "titlecontact": "Feel free to contact me anytime",
 
-    "site1": "Listing some comics from the Marvel API. ReactJS, TailwindCSS, Axios",
-    "site2": "Register and login page with passport authentication. ExpressJS, HTML, CSS.",
-    "site3": "Basic CRUD with pretty nice visuals. ReactJS, TailwindCSS.",
-
-    "footer": "All Rights Reserved to Saurs () => Samuel Luiz 2022"
+  "footer": "All Rights Reserved to Saurs () => Samuel Luiz "
 }

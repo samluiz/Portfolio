@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 import Socials from './Socials'
 import { Container } from './styles'
-import { useScrollDirection } from '../ScrollDirection'
+import { useScrollDirection } from '../../utils/ScrollDirection'
 
 const Header: React.FC = () => {
     const [isDesktop, setDesktop] = useState(window.innerWidth > 650)

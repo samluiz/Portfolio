@@ -6,7 +6,7 @@ const Socials: React.FC = () => {
         <>
             <Container>
                 <div>
-                    <a href="https://github.com/samluiz" target="_blank">
+                    <a href="https://github.com/samluiz" target="_blank" rel="noreferrer">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             height="30px"
@@ -28,11 +28,11 @@ const Socials: React.FC = () => {
                 <div>
                     <a
                         href="https://linkedin.com/in/samuelluizrl"
-                        target="_blank"
+                        target="_blank" rel="noreferrer"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            enable-background="new 0 0 24 24"
+                            enableBackground="new 0 0 24 24"
                             viewBox="0 0 24 24"
                             height="30px"
                             width="30px"
@@ -48,7 +48,7 @@ const Socials: React.FC = () => {
                 <div>
                     <a
                         href="https://www.instagram.com/7samuca7"
-                        target="_blank"
+                        target="_blank" rel="noreferrer"
                     >
                         <svg
                             width="63"
@@ -60,20 +60,20 @@ const Socials: React.FC = () => {
                             <path
                                 d="M46.1833 1.375H16.9C8.07265 1.375 0.916666 8.53098 0.916666 17.3583V46.6417C0.916666 55.469 8.07265 62.625 16.9 62.625H46.1833C55.0107 62.625 62.1667 55.469 62.1667 46.6417V17.3583C62.1667 8.53098 55.0107 1.375 46.1833 1.375Z"
                                 stroke="#CC00FF"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                             />
                             <path
                                 d="M31.5417 48.0416C40.4012 48.0416 47.5833 40.8595 47.5833 31.9999C47.5833 23.1404 40.4012 15.9583 31.5417 15.9583C22.6821 15.9583 15.5 23.1404 15.5 31.9999C15.5 40.8595 22.6821 48.0416 31.5417 48.0416Z"
                                 stroke="#CC00FF"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                             />
                             <path
                                 d="M49.0417 13.0417C49.8471 13.0417 50.5 12.3887 50.5 11.5833C50.5 10.7779 49.8471 10.125 49.0417 10.125C48.2363 10.125 47.5833 10.7779 47.5833 11.5833C47.5833 12.3887 48.2363 13.0417 49.0417 13.0417Z"
                                 stroke="#CC00FF"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                             />
                         </svg>
                         <div className="center">
@@ -107,7 +107,7 @@ const Socials: React.FC = () => {
                 <div>
                     <a
                         href="https://api.whatsapp.com/send?phone=5586994916566"
-                        target="_blank"
+                        target="_blank" rel="noreferrer"
                     >
                         <svg
                             width="72"
@@ -119,14 +119,14 @@ const Socials: React.FC = () => {
                             <path
                                 d="M35.9758 1.45829C29.6328 1.45892 23.4093 3.18568 17.9716 6.45372C12.5339 9.72176 8.08665 14.408 5.10591 20.011C2.12518 25.6139 0.723166 31.9225 1.04995 38.2614C1.37674 44.6004 3.42003 50.7312 6.96109 55.9974L1 71.4583L16.9064 65.7669C21.4682 68.7467 26.6626 70.619 32.0754 71.2344C37.4883 71.8499 42.97 71.1916 48.0836 69.312C53.1973 67.4324 57.8014 64.3834 61.5292 60.4081C65.2569 56.4328 68.0052 51.6411 69.5549 46.4148C71.1047 41.1886 71.413 35.6724 70.4554 30.3058C69.4978 24.9392 67.3007 19.8707 64.0392 15.5042C60.7777 11.1377 56.5421 7.59388 51.6698 5.15529C46.7976 2.7167 41.4235 1.45074 35.9758 1.45829V1.45829Z"
                                 stroke="#CC00FF"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                             />
                             <path
                                 d="M28.3723 44.0671C32.3261 48.0236 41.0549 53.1975 45.0999 53.1975C46.8743 53.2158 48.6005 52.6199 49.9861 51.5106C51.3718 50.4013 52.3317 48.8469 52.7033 47.1105V44.0671C52.7033 44.0671 48.9624 42.241 46.6206 41.0236C44.2787 39.8062 40.5378 44.0671 40.5378 44.0671C37.6915 43.1391 35.092 41.5784 32.9344 39.5018C30.8593 37.3427 29.2996 34.7415 28.3723 31.8931C28.3723 31.8931 32.6303 28.1497 31.4137 25.8062C30.1972 23.4627 28.3723 19.7192 28.3723 19.7192H25.331C23.5958 20.0911 22.0425 21.0517 20.934 22.4383C19.8254 23.8249 19.2299 25.5523 19.2482 27.3279C19.2482 31.3758 24.4186 40.1105 28.3723 44.0671Z"
                                 stroke="#CC00FF"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                             />
                         </svg>
                         <div className="center">
@@ -135,7 +135,7 @@ const Socials: React.FC = () => {
                     </a>
                 </div>
                 <div>
-                    <a href="https://github.com/saurs" target="_blank">
+                    <a href="https://github.com/saurs" target="_blank" rel="noreferrer">
                         <svg
                             width="30"
                             height="30"

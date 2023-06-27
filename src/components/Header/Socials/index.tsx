@@ -5,7 +5,7 @@ const Socials: React.FC = () => {
     return (
         <>
             <Container>
-                <a href="https://github.com/samluiz" target="_blank">
+                <a href="https://github.com/samluiz" target="_blank" rel="noreferrer">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         height="30px"
@@ -20,10 +20,10 @@ const Socials: React.FC = () => {
                         />
                     </svg>
                 </a>
-                <a href="https://linkedin.com/in/samuelluizrl" target="_blank">
+                <a href="https://linkedin.com/in/samuelluizrl" target="_blank" rel="noreferrer">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        enable-background="new 0 0 24 24"
+                        enableBackground="new 0 0 24 24"
                         viewBox="0 0 24 24"
                         height="30px"
                         width="30px"
