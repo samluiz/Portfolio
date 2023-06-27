@@ -5,7 +5,7 @@
   "contact": "CONTACT",
 
   "welcome": "Hey! I'm Samuel Luiz and this is my portfolio!",
-  "button": "Dive deep",
+  "button": "Meet me",
 
   "textone": "Currently i'm an application developer at IBM, working mainly on the development and maintainment of microservices and API's built with Java Spring Boot and ASP.NET. I also had contact with Angular and React.",
 
@@ -17,5 +17,5 @@
   "titleprojects": "Here are some of my recent side projects on GitHub",
   "titlecontact": "Feel free to contact me anytime",
 
-  "footer": "All Rights Reserved to Saurs () => Samuel Luiz "
+  "footer": "All Rights Reserved to Saurs () => Samuel Luiz"
 }

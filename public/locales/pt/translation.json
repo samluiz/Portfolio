@@ -4,8 +4,8 @@
   "projects": "PROJETOS",
   "contact": "CONTATO",
 
-  "welcome": "Bem-vindo ao meu mundo misterioso...",
-  "button": "Desbrave",
+  "welcome": "Olá! Eu sou o Samuel Luiz e este é meu portfolio!",
+  "button": "Conheça",
 
   "textone": "Atualmente sou desenvolvedor de aplicações na IBM, atuando principalmente no desenvolvimento e manutenção de microsserviços e API's construídas com Java Spring Boot. Também tive contato com Angular e React.",
 
@@ -14,8 +14,8 @@
   "textthree": "Também ofereço serviços do lado do cliente, construindo layouts e interfaces web e consumindo API's usando Angular ou React.",
 
   "titleskills": "HABILIDADES",
-  "titleprojects": "Aqui estão alguns dos meus projetos pessoas recentes no GitHub",
+  "titleprojects": "Aqui estão alguns dos meus projetos pessoais recentes no GitHub",
   "titlecontact": "Fique a vontade para entrar em contato comigo",
 
-  "footer": "Todos os direitos reservados: Saurs () => Samuel Luiz "
+  "footer": "Todos os direitos reservados: Saurs () => Samuel Luiz"
 }

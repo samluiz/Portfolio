@@ -3,17 +3,18 @@ import Tilt from 'react-parallax-tilt';
 import { Container } from './styles';
 import { FC } from 'react';
 
-interface TechProps {
+interface IProps {
   src: string;
   alt: string;
   name: string;
+  href?: string;
 }
 
-const TechSkill: FC<TechProps> = ({ src, alt, name }) => {
+const TextRow: FC<IProps> = ({ src, alt, name, href }) => {
   return (
     <>
       <Container>
-        <div className="tech">
+        <a className="box" target="_blank" href={href} rel="noreferrer">
           <Tilt>
             <img src={src} alt={alt} />
           </Tilt>
@@ -28,10 +29,10 @@ const TechSkill: FC<TechProps> = ({ src, alt, name }) => {
               </ScrollAnimation>
             </div>
           </div>
-        </div>
+        </a>
       </Container>
     </>
   );
 };
 
-export default TechSkill;
+export default TextRow;

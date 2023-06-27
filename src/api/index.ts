@@ -1,7 +1,5 @@
 import { Octokit } from '@octokit/core';
 
-const octokit = new Octokit({
-  auth: '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'
-});
+const octokit = new Octokit({});
 
 export default octokit;

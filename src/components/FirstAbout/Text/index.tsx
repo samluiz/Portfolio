@@ -1,6 +1,6 @@
 import 'animate.css/animate.compat.css';
 import React from 'react';
-import TextSection from '../../TextSection';
+import TextSection from '../../shared/TextSection';
 import { Container } from './styles';
 
 const Text: React.FC = () => {

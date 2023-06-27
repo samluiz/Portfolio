@@ -1,5 +1,5 @@
 import 'animate.css/animate.compat.css';
-import ProjectCard from '../../ProjectCard';
+import ProjectCard from '../ProjectCard';
 import { Container } from './styles';
 import octokit from '../../../api';
 import { useState, useEffect } from 'react';
