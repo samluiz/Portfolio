@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const defaultValue = {
-    locale: 'en',
-    setLocale: (string: string) => {},
-}
+  locale: 'en',
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  setLocale: (string: string) => {}
+};
 
-export default React.createContext(defaultValue)
+export default React.createContext(defaultValue);

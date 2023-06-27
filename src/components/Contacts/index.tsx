@@ -6,7 +6,7 @@ import Title from './Title'
 const Contacts: React.FC = () => {
     return (
         <>
-            <Container id="contactSection">
+            <Container id="contact">
                 <Title />
                 <Socials />
             </Container>

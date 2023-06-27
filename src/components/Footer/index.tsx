@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
     <>
       <Container>
         <span>
-          {t('footer')}&copy; {currentYear}{' '}
+          {t('footer')} &copy; {currentYear}{' '}
         </span>
       </Container>
     </>

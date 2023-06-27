@@ -12,10 +12,10 @@ const Sidebar: React.FC = () => {
     <>
       <Container>
         <Menu>
-          <Link to="#homePage">{t('home')}</Link>
-          <Link to="#firstAbout">{t('about')}</Link>
-          <Link to="#projectId">{t('projects')}</Link>
-          <Link to="#contactSection">{t('contact')}</Link>
+          <Link to="#home">{t('home')}</Link>
+          <Link to="#about">{t('about')}</Link>
+          <Link to="#projects">{t('projects')}</Link>
+          <Link to="#contact">{t('contact')}</Link>
           <div className="menu-item">
             <LanguageSwitcher />
           </div>

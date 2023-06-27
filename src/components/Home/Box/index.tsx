@@ -10,7 +10,7 @@ const Box: React.FC = () => {
       <Container>
         <Slogan />
         <Welcome />
-        <Button link="#firstAbout" label="button" />
+        <Button link="#about" label="button" />
       </Container>
     </>
   );

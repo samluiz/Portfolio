@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   const scrollDirection = useScrollDirection();
 
   const updateMedia = () => {
-    setDesktop(window.innerWidth > 670);
+    setDesktop(window.innerWidth > 650);
   };
 
   useEffect(() => {

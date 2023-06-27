@@ -6,7 +6,7 @@ import Text from './Text'
 const FirstAbout: React.FC = () => {
     return (
         <>
-            <Container id="firstAbout">
+            <Container id="about">
                 <MoonImg />
                 <Text />
             </Container>

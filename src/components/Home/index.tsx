@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import LanguageSwitcher from './LanguageSwitcher';
+import React from 'react';
 import Box from './Box';
 import { Container } from './styles';
 import ReactImg from '/src/img/Container1/react.svg';
@@ -9,7 +8,7 @@ import 'animate.css/animate.compat.css';
 const Home: React.FC = () => {
   return (
     <>
-      <Container id="homePage">
+      <Container id="home">
         <div className="react">
           <ScrollAnimation
             initiallyVisible={true}
